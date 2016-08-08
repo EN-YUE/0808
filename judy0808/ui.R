@@ -21,6 +21,7 @@ shinyUI(fluidPage(
                   max = 50,
                   value = 30)
     ),
+    testinput("test2","test input",value=10)
 
     # Show a plot of the generated distribution
     mainPanel(

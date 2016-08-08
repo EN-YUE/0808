@@ -8,8 +8,10 @@
 library(shiny)
 
 shinyServer(function(input, output) {
+  output
 
   output$distPlot <- renderPlot({
+  
 
     # generate bins based on input$bins from ui.R
     x    <- faithful[, 2]
